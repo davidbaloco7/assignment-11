@@ -23,4 +23,4 @@ jobs:
     - name: test2
       run: diff test_data/expected2.txt output2.txt
     - name: test3
-      run: diff test_data/expected1.txt output3.txt
+      run: diff test_data/expected3.txt output3.txt
