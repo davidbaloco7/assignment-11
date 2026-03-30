@@ -11,4 +11,4 @@ jobs:
       with:
         python-version: "3.10"
       - name: Produce actual1.txt output
-      run: python main.py > actual1.txt
+      run: python3 find_lowest_number.py numbers.txt lowest_number.txt  > actual1.txt
